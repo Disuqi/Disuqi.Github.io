@@ -1,5 +1,6 @@
 {
   "name": "-portfolio-website",
+  "homepage": "https://disuqi.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +13,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "homepage": "https://disuqi.github.io/",
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.80.1",
     "@react-three/fiber": "^8.13.6",
