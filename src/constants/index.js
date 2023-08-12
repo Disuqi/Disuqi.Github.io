@@ -15,10 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    unity,
+    kumon,
+    theHenleyCollege,
+    aldi,
+    kfc,
     carrent,
     jobit,
     tripguide,
@@ -42,20 +43,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "API Developer",
+      icon: creator,
+    },
+    {
+      title: "Full-Stack Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AI Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -116,11 +117,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Intern Software Engineer",
+      company_name: "Unity Technologies",
+      icon: unity,
+      iconBg: "#000000",
+      date: "July 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +130,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Teaching Assistant",
+      company_name: "Kumon Maths & English",
+      icon: kumon,
+      iconBg: "#87cdf3",
+      date: "September 2021 - July 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,30 +143,28 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      title: "Student Brand Ambassador",
+      company_name: "The Henley College",
+      icon: theHenleyCollege,
+      iconBg: "#49519c",
+      date: "March 2020 - July 2020",
+      points: [],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+      title: "Store Assistant",
+      company_name: "Aldi",
+      icon: aldi,
+      iconBg: "#ffffff",
+      date: "September 2019 - December 2020",
+      points: [],
+    },
+    {
+      title: "Team Member and Cook",
+      company_name: "KFC",
+      icon: kfc,
+      iconBg: "#ffffff",
+      date: " November 2018 - September 2019",
+      points: [],
     },
   ];
   
