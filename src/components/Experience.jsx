@@ -9,7 +9,7 @@ import { SectionWrapper } from '../hoc'
 import {textVariant} from '../utils/motion'
 
 const ExperienceCard = ({ experience }) => {
-  const pointsToShow = experience.points.length > 0 ? true : false;
+  const hasPoints = experience.points.length > 0 ? true : false;
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -38,7 +38,7 @@ const ExperienceCard = ({ experience }) => {
           {experience.company_name}
         </p>
       </div>
-      {pointsToShow &&           <ul className='mt-5 list-disc ml-5 space-y-2'>
+      {hasPoints && <ul className='mt-5 list-disc ml-5 space-y-2'>
           {experience.points.map((point, index) => (
             <li
               key={`experience-point-${index}`}
@@ -68,4 +68,4 @@ const Experience = () => {
   )
 }
 
-export default SectionWrapper(Experience, "work")
+export default SectionWrapper(Experience, "experience")

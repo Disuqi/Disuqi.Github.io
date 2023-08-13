@@ -9,9 +9,11 @@ function HOC()
 {
     return (
     <motion.section
-    variants={staggerContainer()} initial="hidden" whileInView={"show"} viewport={{once: true, amount: 0.25}} className={`${styles.padding} max-w-7xl mx-auto relative z-0`}>
+    variants={staggerContainer()} initial="hidden" whileInView={"show"} viewport={{once: true, amount: 0.25}} className={`${styles.padding} scroll-pt-10 snap-start min-h-screen max-w-7xl mx-auto relative z-0 flex flex-col justify-center items-center`}>
         <span className='hash-span' id={idName}>&nbsp;</span>
-        <Component/>
+        <div>
+            <Component/>
+        </div>
     </motion.section>);
 }
 

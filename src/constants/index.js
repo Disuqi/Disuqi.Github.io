@@ -3,18 +3,19 @@ import {
     backend,
     creator,
     web,
+    cpp,
+    csharp,
+    java,
+    jetsql,
+    mysql,
+    php,
+    python,
+    swift,
     javascript,
     typescript,
     html,
     css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
     unity,
     kumon,
     theHenleyCollege,
@@ -23,7 +24,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -32,8 +32,12 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -62,6 +66,38 @@ import {
   
   const technologies = [
     {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "PHP",
+      icon: php,
+    },
+    {
+      name: "Swift",
+      icon: swift,
+    },
+    {
+      name: "Jet SQL",
+      icon: jetsql,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -78,41 +114,9 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
@@ -123,10 +127,12 @@ import {
       iconBg: "#000000",
       date: "July 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implement Unity Editor and engine features that support the performance needs of large projects and teams.",
+        "Deliver stable end-to-end functionality with high quality in mind.",
+        "Take great care that work is comprehensively documented.",
+        "Analyse, and review the work of others.",
+        "Produce specifications, and determine operational feasibility.",
+        "Troubleshoot, debug and upgrade existing features."
       ],
     },
     {
@@ -136,17 +142,18 @@ import {
       iconBg: "#87cdf3",
       date: "September 2021 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Communicate effectively with students and colleagues.",
+        "Analyse the students’ work and assess their existing ability in a subject area.",
+        "Provide students with mock examinations or tests to prepare students for real exams.",
+        "Communicate with parents/guardians about trouble areas or any issues that require attention.",
+        "Maintaining excellent knowledge of the subject being taught."
       ],
     },
     {
       title: "Student Brand Ambassador",
       company_name: "The Henley College",
       icon: theHenleyCollege,
-      iconBg: "#49519c",
+      iconBg: "#ffffff",
       date: "March 2020 - July 2020",
       points: [],
     },
@@ -154,7 +161,7 @@ import {
       title: "Store Assistant",
       company_name: "Aldi",
       icon: aldi,
-      iconBg: "#ffffff",
+      iconBg: "#172357",
       date: "September 2019 - December 2020",
       points: [],
     },
@@ -165,33 +172,6 @@ import {
       iconBg: "#ffffff",
       date: " November 2018 - September 2019",
       points: [],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -261,4 +241,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
