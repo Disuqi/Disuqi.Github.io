@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link from "./link.png";
 
 import java from "./tech/java.png";
 import cpp from "./tech/cpp.png";
@@ -31,9 +32,9 @@ import theHenleyCollege from "./company/theHenleyCollege.png";
 import aldi from "./company/aldi.png";
 import kfc from "./company/kfc.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import mapbook from "./mapbook.png";
+import selfdrivingcar from "./selfdrivingcar.png";
+import phasergame from "./phasergame.png";
 
 export {
   logo,
@@ -44,6 +45,7 @@ export {
   github,
   menu,
   close,
+  link,
   cpp,
   csharp,
   java,
@@ -66,7 +68,7 @@ export {
   theHenleyCollege,
   aldi,
   kfc,
-  carrent,
-  jobit,
-  tripguide,
+  mapbook,
+  selfdrivingcar,
+  phasergame,
 };
