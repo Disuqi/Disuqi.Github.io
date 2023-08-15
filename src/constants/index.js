@@ -24,6 +24,7 @@ import {
   mapbook,
   selfdrivingcar,
   phasergame,
+  spacerunner,
 } from "../assets";
 
 export const navLinks = [
@@ -243,6 +244,27 @@ const projects = [
     website_link: "https://disuqi.github.io/Phaser-Game/"
   },
   {
+    name: "Space Runner",
+    description:
+      "Simply a game made with Java using JavaFX",
+    tags: [
+      {
+        name: "java",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Maven",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaFX",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: spacerunner,
+    source_code_link: "https://github.com/Disuqi/GameShop",
+  },
+  {
     name: "Riot Bot",
     description:
       "A multifunctional Discord bot meticulously designed to enhance your League of Legends gaming experience, offering an array of features tailored to assist your gameplay.",
@@ -283,26 +305,6 @@ const projects = [
     source_code_link: "https://github.com/Disuqi/GameShop",
   },
   {
-    name: "Space Runner",
-    description:
-      "Simply a game made with Java using JavaFX",
-    tags: [
-      {
-        name: "java",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Maven",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaFX",
-        color: "pink-text-gradient",
-      }
-    ],
-    source_code_link: "https://github.com/Disuqi/GameShop",
-  },
-  {
     name: "Disuqi.github.io",
     description:
       "This portfolio website.",
@@ -326,6 +328,7 @@ const projects = [
     ],
     source_code_link: "https://github.com/Disuqi/GameShop",
   },
+  
 ];
 
 export { services, technologies, experiences, projects };

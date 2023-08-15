@@ -59,7 +59,7 @@ const Projects = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      <div className='mt-5 flex flex-wrap gap-7'>
+      <div className='mt-5 flex flex-auto flex-wrap gap-7'>
         {projects.map((project, index) => (<ProjectCard key={`project-${index}`} index={index} {...project} />))}
       </div>
     </>
