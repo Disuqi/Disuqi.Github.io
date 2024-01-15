@@ -9,16 +9,33 @@ import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({index, title, icon}) => 
 {
+  const [isClicked, setIsClicked] = React.useState("unclicked");
+  const variants = 
+  {
+    "unclicked" : { scale: 1},
+    "clicked": { scale: 1.5 }
+  }
+
+  const clickCard = () => 
+  {
+    if(isClicked === "clicked")
+      setIsClicked("unclicked")
+    else
+      setIsClicked("clicked")
+  }
+
   return (
-  <Tilt className="xs:w-[250px] w-full"  style={{ transformStyle: 'preserve-3d' }}>
-    <motion.div variants={fadeIn("right", "spring", (index + 1) * 0.5, 0.75)}
-    className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card' style={{ transformStyle: 'preserve-3d' }}>
-      <div className= 'bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-center items-center' style={{ transformStyle: 'preserve-3d' }}>
-        <div className='flex flex-col justify-evenly items-center gap-10' style={{transform: 'translateZ(60px)'}}>
-          <img role="img" src={icon} alt={title} className='w-16 h-16 object-contain'/>
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+  <Tilt className="xs:w-[250px] w-full three-d">
+    <motion.div variants={fadeIn("right", "spring", (index + 1) * 0.5, 0.75)} className='three-d'>
+      <motion.div variants={variants} animate={isClicked} onClick={clickCard} onMouseLeave={() => setIsClicked("unclicked")}
+       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card three-d'>
+        <div className= 'bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-center items-center three-d'>
+          <div className='flex flex-col justify-evenly items-center gap-10' style={{transform: 'translateZ(60px)'}}>
+            <img role="img" src={icon} alt={title} className='w-16 h-16 object-contain'/>
+            <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          </div>
         </div>
-      </div>
+      </motion.div>
     </motion.div>
   </Tilt>)
 }

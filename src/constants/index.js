@@ -328,7 +328,7 @@ const projects = [
     ],
     source_code_link: "https://github.com/Disuqi/GameShop",
   },
-  
+
 ];
 
 export { services, technologies, experiences, projects };

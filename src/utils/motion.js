@@ -35,8 +35,8 @@ export const fadeIn = (direction, type, delay, duration) => {
         },
       },
     };
-  };
-  
+};
+
 export const zoomIn = (delay, duration) => {
     return {
       hidden: {
@@ -86,3 +86,18 @@ export const staggerContainer = (staggerChildren, delayChildren) => {
       },
     };
   };
+
+export const draw = (delay, duration) => 
+{
+  return {
+    hidden: { pathLength: 0, opacity: 0},
+    show: {
+      pathLength: 1,
+      opacity: 1,
+      transition: {
+        pathLength: { delay, type: "spring", duration: duration, bounce: 0},
+        opacity: { delay, duration: 0.01}
+      }
+    }
+  }
+}

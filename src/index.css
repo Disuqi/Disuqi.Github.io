@@ -13,6 +13,11 @@
   color-scheme: dark;
 }
 
+.three-d
+{
+  transform-style: preserve-3d;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
