@@ -32,9 +32,10 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className=' text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a software engineer with a passion for building things. I am currently working at 
-        <a href='https://unity.com/' className='text-secondary transition-all duration-300 ease-out hover:text-[#8967f8] hover:underline'>&nbsp;Unity&nbsp;</a>
-         as a Software Engineer Intern. I am also a student at the University of Salford, pursuing a Bachelor of Computer Science. I have experience working in different sectors and techonologies, such as:
+      I'm a dedicated software engineer with a strong passion for creating innovative solutions.&nbsp;
+      Currently employed as a Software Engineer at&nbsp;<a href='https://unity.com/' className='text-secondary transition-all duration-300 ease-out hover:text-[#8967f8] hover:underline'>Unity</a>,&nbsp;
+      I am also pursuing a Bachelor of Computer Science at the University of Salford.&nbsp;
+      My expertise spans various sectors and technologies, including:
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (<ServiceCard key={service.title} index={index} {...service}/>))}
