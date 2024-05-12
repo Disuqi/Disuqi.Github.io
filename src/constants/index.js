@@ -24,7 +24,7 @@ import {
   mapbook,
   selfdrivingcar,
   phasergame,
-  spacerunner,
+  spacerunner, imaanmasjid, cancerai, fruitmovies,
 } from "../assets";
 
 export const navLinks = [
@@ -122,13 +122,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Intern Software Engineer",
+    title: "Software Engineer",
     company_name: "Unity Technologies",
     icon: unity,
     iconBg: "#000000",
     date: "July 2022 - Present",
     points: [
-      "Implement Unity Editor and engine features that support the performance needs of large projects and teams.",
+      "Develop Unity Editor and engine features that support the performance needs of large projects and teams.",
       "Deliver stable end-to-end functionality with high quality in mind.",
       "Take great care that work is comprehensively documented.",
       "Analyse, and review the work of others.",
@@ -177,6 +177,68 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Cancer AI",
+    description: "A website for the AI model I developed and more. The AI model is trained to predict the likelihood of a patient having cancer based on an MRI scan of their brain. The website also includes other AI models by other developers.",
+    tags: [
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      }
+    ],
+    image: cancerai,
+    website_link: "https://cancer-ai.vercel.app/",
+    source_code_link: "https://github.com/Disuqi/Imaan-Masjid-Website"
+  },
+  {
+    name: "Fruit Movies",
+    description: "A website that lets you search for movies and view their details. The website uses a private MySQL database to store movie data. If you sign up you are also able to review movies. Only Admins can add, edit, and delete movies. The website also includes a (documented) REST API with JWT security to fetch the movie data.",
+    tags: [
+      {
+        name: "rest-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      }
+    ],
+    image: fruitmovies,
+    source_code_link: "https://github.com/Disuqi/FruitMovies"
+  },
+  {
+    name: "Imaan Masjid Website",
+    description: "The local mosque's website is a modern digital hub, featuring a dynamic prayer timetable, streamlined donation page, and user-friendly admin interface. Powered by Next.js and Tailwind CSS, it offers accurate prayer times and a sleek, minimalist design.",
+    tags: [
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      }
+    ],
+    image: imaanmasjid,
+    website_link: "https://www.imaanmasjid.co.uk/",
+    source_code_link: "https://github.com/Disuqi/Imaan-Masjid-Website"
+  },
   {
     name: "MapBook",
     description:
@@ -279,6 +341,42 @@ const projects = [
       }
     ],
     source_code_link: "https://github.com/Disuqi/Riot-Bot",
+  },
+  {
+    name: "Quran Discord Bot",
+    description:
+      "A Discord bot to recite the Holy Quran in your voice channel",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "discordjs",
+        color: "green-text-gradient",
+      },
+      {
+          name: "sapphire-framework",
+          color: "orange-text-gradient",
+      }
+    ],
+    source_code_link: "https://github.com/Disuqi/QuranAndSunnah"
+  },
+  {
+    name: "Flower Classifier AI",
+    description:
+        "A simple AI model that can classify images of flowers. The model is trained using the TensorFlow library.",
+    tags: [
+      {
+        name: "tensorflow",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      }
+    ],
+    source_code_link: "https://github.com/Disuqi/Flower-Classifier-AI",
   },
   {
     name: "GameShop",

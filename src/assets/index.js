@@ -37,6 +37,10 @@ import mapbook from "./mapbook.png";
 import selfdrivingcar from "./selfdrivingcar.png";
 import phasergame from "./phasergame.png";
 
+import imaanmasjid from "./imaanmasjid.png";
+import cancerai from "./cancerai.png";
+import fruitmovies from "./fruitmovies.png";
+
 export {
   logo,
   backend,
@@ -73,4 +77,7 @@ export {
   mapbook,
   selfdrivingcar,
   phasergame,
+  imaanmasjid,
+  cancerai,
+  fruitmovies,
 };
