@@ -1,11 +1,12 @@
 import React from 'react'
 import Tilt from 'react-parallax-tilt';
-import { motion } from 'framer-motion'
+import { motion, useCycle } from 'framer-motion'
 import { styles } from '../styles'
 import { github, link } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
+import { selectedProject } from '../App'
 
 const LinkButton = ({icon, link, alt, colorClass}) =>
 {
@@ -60,6 +61,24 @@ const Projects = () => {
         </motion.p>
       </div>
       <div className='mt-5 flex flex-auto flex-wrap gap-7'>
+          <motion.button onClick={() => selectedProject.value = "test"} layoutId="test" >
+            <Tilt
+              className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+              <div className={`relative w-full h-auto`}>
+                <div className='absolute inset-0 flex justify-end card-img_hover m-1 gap-1'>
+                  <LinkButton icon={github} link={"https://github.com/Disuqi"} alt='github' colorClass='black-gradient' />
+                </div>
+              </div>
+              <div className='mt-5'>
+                <h3 className='text-white font-bold text-[24px]'>Test</h3>
+                <p className='text-secondary text-[14px] mt-2'>Select me to see a cool animation</p>
+              </div>
+              <div className='mt-4 flex flex-wrap gap-2'>
+                <p className={`text-[14px] text-indigo-400`}>@shush</p>
+                <p className={`text-[14px] text-orange-400`}>@framer-motion</p>
+              </div>
+            </Tilt>
+        </motion.button>
         {projects.map((project, index) => (<ProjectCard key={`project-${index}`} index={index} {...project} />))}
       </div>
     </>

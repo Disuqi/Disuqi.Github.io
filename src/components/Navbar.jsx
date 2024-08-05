@@ -16,9 +16,8 @@ const Navbar = () => {
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-b from-primary to-transparent`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link to="/" className='flex items-center gap-2' onClick={resetToStart}>
-            <img src={logo} alt="logo" className='w-9 h-9 object-contain' style={{ margin: 0 }} />
-            <p className='text-white text-[18px] font-bold cursor-pointer flex' style={{ margin: 0 }}>isuqi&nbsp;<span className='sm:block hidden'>| Software Engineer</span></p>    
+        <Link to="/" className='text-white text-2xl font-bold cursor-pointer items-center hover:text-indigo-400 flex transition duration-75 ease-in-out' onClick={resetToStart}>
+            Disuqi<span className='sm:block hidden m-2 font-light'>|</span>Software Engineer
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (

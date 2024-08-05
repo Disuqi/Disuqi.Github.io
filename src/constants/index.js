@@ -195,8 +195,7 @@ const projects = [
       }
     ],
     image: cancerai,
-    website_link: "https://cancer-ai.vercel.app/",
-    source_code_link: "https://github.com/Disuqi/Imaan-Masjid-Website"
+    source_code_link: "https://github.com/Disuqi/Cancer-AI-Webapp"
   },
   {
     name: "Fruit Movies",
@@ -253,7 +252,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "googlemapsapi",
+        name: "maps-api",
         color: "green-text-gradient",
       },
       {
@@ -262,7 +261,7 @@ const projects = [
       },
     ],
     image: mapbook,
-    source_code_link: "https://github.com/Disuqi/PHP-project",
+    source_code_link: "https://github.com/Disuqi/MapBook",
     website_link: "http://age520.poseidon.salford.ac.uk/controllers/index.php"
   },
   {
@@ -279,7 +278,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "machinelearning",
+        name: "machine-learning",
         color: "pink-text-gradient",
       },
     ],
@@ -303,7 +302,7 @@ const projects = [
     ],
     image: phasergame,
     source_code_link: "https://github.com/Disuqi/Phaser-Game",
-    website_link: "https://disuqi.github.io/Phaser-Game/"
+    website_link: "https://disuqi.github.io/Phaser-Game"
   },
   {
     name: "Space Runner",
@@ -315,16 +314,16 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "Maven",
+        name: "maven",
         color: "blue-text-gradient",
       },
       {
-        name: "JavaFX",
+        name: "design-patterns",
         color: "pink-text-gradient",
       }
     ],
     image: spacerunner,
-    source_code_link: "https://github.com/Disuqi/GameShop",
+    source_code_link: "https://github.com/Disuqi/SpaceRunner",
   },
   {
     name: "Riot Bot",
@@ -336,7 +335,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "discord.py",
+        name: "discord-py",
         color: "blue-text-gradient",
       }
     ],
@@ -360,7 +359,7 @@ const projects = [
           color: "orange-text-gradient",
       }
     ],
-    source_code_link: "https://github.com/Disuqi/QuranAndSunnah"
+    source_code_link: "https://github.com/Disuqi/QuranDiscordBot"
   },
   {
     name: "Flower Classifier AI",
@@ -405,7 +404,7 @@ const projects = [
   {
     name: "Disuqi.github.io",
     description:
-      "This portfolio website.",
+      "This website.",
     tags: [
       {
         name: "react",
@@ -424,7 +423,7 @@ const projects = [
         color: "pink-text-gradient",
       }
     ],
-    source_code_link: "https://github.com/Disuqi/GameShop",
+    source_code_link: "https://github.com/Disuqi/Disuqi.Github.io",
   },
   
 ];

@@ -55,7 +55,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea rows='7' name='message' value={form.message} onChange={handleChange} placeholder="What do you want to say?" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'/>
           </label>
-          <button type='submit' className='bg-tertiary py-3 px-8 outline-noen w-fit text-white font-bold shadow-md shadow-primary rounded-xl transition-all duration-200 ease-in-out hover:bg-gradient-to-r from-[#b92b27] to-[#1565C0]'>
+          <button type='submit' className='bg-tertiary py-3 px-8 outline-noen w-fit text-white font-bold shadow-md shadow-primary rounded-xl transition duration-100 ease-in-out hover:bg-indigo-500'>
             {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
