@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import link from "./link.png";
 import spacerunner from "./spacerunner.png";
+import play from "./play.svg";
 
 import java from "./tech/java.png";
 import cpp from "./tech/cpp.png";
@@ -80,4 +81,5 @@ export {
   imaanmasjid,
   cancerai,
   fruitmovies,
+  play
 };

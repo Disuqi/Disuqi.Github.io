@@ -6,6 +6,7 @@ import { textVariant } from "../utils/motion";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
+import { fadeIn } from "../utils/motion";
 
 const Tech = () => {
   return (
@@ -20,6 +21,13 @@ const Tech = () => {
             <BallCanvas icon={technology.icon} />
           </div>
         ))}
+      </div>
+      <div className='w-full flex justify-end'>
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+          And More
+        </motion.p>
       </div>
     </>
   );

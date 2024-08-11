@@ -179,7 +179,7 @@ const experiences = [
 const projects = [
   {
     name: "Cancer AI",
-    description: "A website for the AI model I developed and more. The AI model is trained to predict the likelihood of a patient having cancer based on an MRI scan of their brain. The website also includes other AI models by other developers.",
+    description: "A website featuring an AI model that predicts the likelihood of brain cancer from MRI scans. The platform also hosts models from other developers, allowing users to vote on prediction accuracy. This feedback helps identify top-performing models and provides data for developers to improve their algorithms",
     tags: [
       {
         name: "tailwind",
@@ -195,11 +195,12 @@ const projects = [
       }
     ],
     image: cancerai,
-    source_code_link: "https://github.com/Disuqi/Cancer-AI-Webapp"
+    source_code_link: "https://github.com/Disuqi/Cancer-AI-Webapp",
+    video_url: "https://www.youtube.com/embed/aXjuThypTjM?si=Op8frrl928p1Nj1c",
   },
   {
     name: "Fruit Movies",
-    description: "A website that lets you search for movies and view their details. The website uses a private MySQL database to store movie data. If you sign up you are also able to review movies. Only Admins can add, edit, and delete movies. The website also includes a (documented) REST API with JWT security to fetch the movie data.",
+    description: "A movie search website where users can view details, leave reviews, and interact based on their roles. Admins manage the movie database, which is powered by MySQL. The site also features a documented REST API with JWT security for secure data access",
     tags: [
       {
         name: "rest-api",
@@ -215,11 +216,31 @@ const projects = [
       }
     ],
     image: fruitmovies,
-    source_code_link: "https://github.com/Disuqi/FruitMovies"
+    source_code_link: "https://github.com/Disuqi/FruitMovies",
+    video_url: "https://www.youtube.com/embed/y-Zhk4ptfu0?si=8I-ELnH1KrGeX-hL"
+  },
+  {
+    name: "Discord.ts Cogs",
+    description: "This is a TypeScipt package and extension for the discord.js library, which introduces cogs for discord.js (inspired by discord.py). This package also includes a new way to handle commands, thorugh decorators and new classes that encapsulate the command logic.",
+    tags: [
+      {
+        name: "npm-package",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docs",
+        color: "green-text-gradient",
+      }
+    ],
+    source_code_link: "https://github.com/Disuqi/discord.ts-cogs"
   },
   {
     name: "Imaan Masjid Website",
-    description: "The local mosque's website is a modern digital hub, featuring a dynamic prayer timetable, streamlined donation page, and user-friendly admin interface. Powered by Next.js and Tailwind CSS, it offers accurate prayer times and a sleek, minimalist design.",
+    description: "This is the local mosque's website. It is a modern digital hub, featuring a dynamic prayer timetable, streamlined donation page, and user-friendly admin interface. Powered by Next.js and Tailwind CSS, it offers accurate prayer times and a sleek, minimalist design",
     tags: [
       {
         name: "tailwind",
@@ -236,12 +257,13 @@ const projects = [
     ],
     image: imaanmasjid,
     website_link: "https://www.imaanmasjid.co.uk/",
-    source_code_link: "https://github.com/Disuqi/Imaan-Masjid-Website"
+    source_code_link: "https://github.com/Disuqi/Imaan-Masjid-Website",
+    video_url: "https://www.youtube.com/embed/AIitEW4lYCs?si=E7h5IelSCB0RdyrT"
   },
   {
     name: "MapBook",
     description:
-      "Sign up and connect with others. The site lets you find and add friends. Once connected, you and your friends can see each other's locations. Initially, I used the Google API to show user locations on a map, but the free trial ended, so that part is currently inactive.",
+"Sign up to connect with others and find friends. Once connected, you can view each other's locations. Initially, the site used the Google API to display user locations on a map, but this feature is currently inactive due to the expiration of the free trial",
     tags: [
       {
         name: "php",
@@ -262,12 +284,13 @@ const projects = [
     ],
     image: mapbook,
     source_code_link: "https://github.com/Disuqi/MapBook",
-    website_link: "http://age520.poseidon.salford.ac.uk/controllers/index.php"
+    website_link: "http://age520.poseidon.salford.ac.uk/controllers/index.php",
+    video_url: "https://www.youtube.com/embed/ymPOVnUz53g?si=J5g5i5HDGS-oVGko"
   },
   {
     name: "Self Driving Car",
     description:
-      "Train your own AI to master a mini game, particularly in the driving aspect. With a range of customizable features geared towards enhancing the training process, you can effortlessly hone your AI's skills. What's more, you have the flexibility to train multiple AIs simultaneously, amplifying the potential for rapid progress.",
+      "Train your own AI to master a mini game, particularly in the driving aspect. With a range of customizable features geared towards enhancing the training process, you can effortlessly hone your AI's skills. What's more, you have the flexibility to train multiple AIs simultaneously, amplifying the potential for rapid progress",
     tags: [
       {
         name: "js",
@@ -284,12 +307,13 @@ const projects = [
     ],
     image: selfdrivingcar,
     source_code_link: "https://github.com/Disuqi/Self-Driving-Car-AI",
-    website_link: "https://disuqi.github.io/Self-Driving-Car-AI/"
+    website_link: "https://disuqi.github.io/Self-Driving-Car-AI/",
+    video_url: "https://www.youtube.com/embed/xd9HkDhOyT4?si=3fpuPkV2xfabiuIO"
   },
   {
     name: "Web Game",
     description:
-      "I decided to dive into JavaScript by creating a quick video game. Using Phaser 3 framework, I whipped up a simple game, even though the code's a bit messy. Despite the game's brevity and less-than-perfect fun factor, I achieved my goal of learning a bunch from this project.",
+      "I decided to dive into JavaScript by creating a quick video game. Using Phaser 3 framework, I whipped up a simple game, even though the code's a bit messy. Despite the game's brevity and less-than-perfect fun factor, I achieved my goal of learning a bunch from this project",
     tags: [
       {
         name: "js",
@@ -302,12 +326,13 @@ const projects = [
     ],
     image: phasergame,
     source_code_link: "https://github.com/Disuqi/Phaser-Game",
-    website_link: "https://disuqi.github.io/Phaser-Game"
+    website_link: "https://disuqi.github.io/Phaser-Game",
+    video_url: "https://www.youtube.com/embed/1J9Q6Y6J9ZI?si=0w0mp7JOFz6qaIJt"
   },
   {
     name: "Space Runner",
     description:
-      "Simply a game made with Java using JavaFX",
+      "A simple game built with Java using JavaFX",
     tags: [
       {
         name: "java",
@@ -328,7 +353,7 @@ const projects = [
   {
     name: "Riot Bot",
     description:
-      "A multifunctional Discord bot meticulously designed to enhance your League of Legends gaming experience, offering an array of features tailored to assist your gameplay.",
+      "A multifunctional Discord bot meticulously designed to enhance your League of Legends gaming experience, offering an array of features tailored to assist your gameplay",
     tags: [
       {
         name: "python",
@@ -344,7 +369,7 @@ const projects = [
   {
     name: "Quran Discord Bot",
     description:
-      "A Discord bot to recite the Holy Quran in your voice channel",
+      "A Discord bot that recites the Holy Quran in your voice channel",
     tags: [
       {
         name: "typescript",
@@ -359,12 +384,13 @@ const projects = [
           color: "orange-text-gradient",
       }
     ],
-    source_code_link: "https://github.com/Disuqi/QuranDiscordBot"
+    source_code_link: "https://github.com/Disuqi/QuranDiscordBot",
+    video_url: "https://www.youtube.com/embed/AtPWeM_0IYk?si=0w0mp7JOFz6qaIJt"
   },
   {
     name: "Flower Classifier AI",
     description:
-        "A simple AI model that can classify images of flowers. The model is trained using the TensorFlow library.",
+        "A simple AI model that can classify images of flowers. The model is trained using the TensorFlow library",
     tags: [
       {
         name: "tensorflow",
@@ -380,7 +406,7 @@ const projects = [
   {
     name: "GameShop",
     description:
-      "GameShop is my bootcamp crowning achievement, a web-based API simplifying the storage and retrieval of diverse video game data.",
+      "GameShop is my bootcamp crowning achievement, a web-based API simplifying the storage and retrieval of diverse video game data",
     tags: [
       {
         name: "java",
@@ -404,7 +430,7 @@ const projects = [
   {
     name: "Disuqi.github.io",
     description:
-      "This website.",
+      "This website",
     tags: [
       {
         name: "react",

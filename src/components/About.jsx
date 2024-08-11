@@ -10,11 +10,11 @@ import { SectionWrapper } from '../hoc';
 const ServiceCard = ({index, title, icon}) => 
 {
   return (
-  <Tilt className="xs:w-[250px] w-full"  style={{ transformStyle: 'preserve-3d' }}>
+  <Tilt className="xs:w-[250px] w-full">
     <motion.div variants={fadeIn("right", "spring", (index + 1) * 0.5, 0.75)}
-    className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card' style={{ transformStyle: 'preserve-3d' }}>
-      <div className= 'bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-center items-center' style={{ transformStyle: 'preserve-3d' }}>
-        <div className='flex flex-col justify-evenly items-center gap-10' style={{transform: 'translateZ(60px)'}}>
+    className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+      <div className= 'bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-center items-center'>
+        <div className='flex flex-col justify-evenly items-center gap-10'>
           <img role="img" src={icon} alt={title} className='w-16 h-16 object-contain'/>
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
         </div>
