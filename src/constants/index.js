@@ -196,7 +196,7 @@ const projects = [
     ],
     image: cancerai,
     source_code_link: "https://github.com/Disuqi/Cancer-AI-Webapp",
-    video_url: "https://www.youtube.com/embed/aXjuThypTjM?si=Op8frrl928p1Nj1c",
+    video_url: "https://www.youtube.com/embed/ln_oucomIaY?si=JHgKkSOIk6BP8j2O",
   },
   {
     name: "Fruit Movies",
@@ -217,7 +217,7 @@ const projects = [
     ],
     image: fruitmovies,
     source_code_link: "https://github.com/Disuqi/FruitMovies",
-    video_url: "https://www.youtube.com/embed/y-Zhk4ptfu0?si=8I-ELnH1KrGeX-hL"
+    video_url: "https://www.youtube.com/embed/c0Jtq9etfao?si=Fvs9Gx3M33-bd136"
   },
   {
     name: "Discord.ts Cogs",
@@ -258,7 +258,7 @@ const projects = [
     image: imaanmasjid,
     website_link: "https://www.imaanmasjid.co.uk/",
     source_code_link: "https://github.com/Disuqi/Imaan-Masjid-Website",
-    video_url: "https://www.youtube.com/embed/AIitEW4lYCs?si=E7h5IelSCB0RdyrT"
+    video_url: "https://www.youtube.com/embed/bwJ-t6dwjo0?si=iawofpgziLi38j3S"
   },
   {
     name: "MapBook",
@@ -285,7 +285,7 @@ const projects = [
     image: mapbook,
     source_code_link: "https://github.com/Disuqi/MapBook",
     website_link: "http://age520.poseidon.salford.ac.uk/controllers/index.php",
-    video_url: "https://www.youtube.com/embed/ymPOVnUz53g?si=J5g5i5HDGS-oVGko"
+    video_url: "https://www.youtube.com/embed/EWKEScbvRSQ?si=yIhTa4kcl2Iz91KU"
   },
   {
     name: "Self Driving Car",
@@ -308,7 +308,7 @@ const projects = [
     image: selfdrivingcar,
     source_code_link: "https://github.com/Disuqi/Self-Driving-Car-AI",
     website_link: "https://disuqi.github.io/Self-Driving-Car-AI/",
-    video_url: "https://www.youtube.com/embed/xd9HkDhOyT4?si=3fpuPkV2xfabiuIO"
+    video_url: "https://www.youtube.com/embed/-EzB_M2nNVU?si=mVN0wGsIaq9eEEf-"
   },
   {
     name: "Web Game",
@@ -327,7 +327,7 @@ const projects = [
     image: phasergame,
     source_code_link: "https://github.com/Disuqi/Phaser-Game",
     website_link: "https://disuqi.github.io/Phaser-Game",
-    video_url: "https://www.youtube.com/embed/1J9Q6Y6J9ZI?si=0w0mp7JOFz6qaIJt"
+    video_url: "https://www.youtube.com/embed/FidA1ApSCdU?si=hQcO6PcU3xXCL3jP"
   },
   {
     name: "Space Runner",
@@ -385,7 +385,7 @@ const projects = [
       }
     ],
     source_code_link: "https://github.com/Disuqi/QuranDiscordBot",
-    video_url: "https://www.youtube.com/embed/AtPWeM_0IYk?si=0w0mp7JOFz6qaIJt"
+    video_url: "https://www.youtube.com/embed/0fMco9F6214?si=ppLVUeLwX3cOw-3B"
   },
   {
     name: "Flower Classifier AI",
