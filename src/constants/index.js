@@ -258,7 +258,7 @@ const projects = [
     image: imaanmasjid,
     website_link: "https://www.imaanmasjid.co.uk/",
     source_code_link: "https://github.com/Disuqi/Imaan-Masjid-Website",
-    video_url: "https://www.youtube.com/embed/bwJ-t6dwjo0?si=iawofpgziLi38j3S"
+    video_url: "https://youtu.be/2cWfLHzZ_6k"
   },
   {
     name: "MapBook",
