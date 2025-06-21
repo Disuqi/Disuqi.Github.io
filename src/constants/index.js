@@ -24,7 +24,7 @@ import {
   mapbook,
   selfdrivingcar,
   phasergame,
-  spacerunner, imaanmasjid, cancerai, fruitmovies,
+  spacerunner, imaanmasjid, cancerai, filmfruits, qurandownloader,
 } from "../assets";
 
 export const navLinks = [
@@ -199,7 +199,27 @@ const projects = [
     video_url: "https://www.youtube.com/embed/ln_oucomIaY?si=JHgKkSOIk6BP8j2O",
   },
   {
-    name: "Fruit Movies",
+    name: "Quran Downloader",
+    description: "A simple command line tool to quickly download Quran audio files from an extensive collection of reciters.",
+    source_code_link: "https://github.com/Disuqi/quran-downloader",
+    image: qurandownloader,
+    tags:[
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cli",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "quran-api",
+        color: "pink-text-gradient",
+      }
+    ]
+  },
+  {
+    name: "Film Fruits",
     description: "A movie search website where users can view details, leave reviews, and interact based on their roles. Admins manage the movie database, which is powered by MySQL. The site also features a documented REST API with JWT security for secure data access",
     tags: [
       {
@@ -215,7 +235,7 @@ const projects = [
         color: "green-text-gradient",
       }
     ],
-    image: fruitmovies,
+    image: filmfruits,
     source_code_link: "https://github.com/Disuqi/FruitMovies",
     video_url: "https://www.youtube.com/embed/c0Jtq9etfao?si=Fvs9Gx3M33-bd136"
   },

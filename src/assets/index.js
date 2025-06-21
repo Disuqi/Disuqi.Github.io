@@ -40,7 +40,8 @@ import phasergame from "./phasergame.png";
 
 import imaanmasjid from "./imaanmasjid.png";
 import cancerai from "./cancerai.png";
-import fruitmovies from "./fruitmovies.png";
+import filmfruits from "./filmfruits.png";
+import qurandownloader from "./qurandownloader.png";
 
 export {
   logo,
@@ -80,6 +81,7 @@ export {
   phasergame,
   imaanmasjid,
   cancerai,
-  fruitmovies,
+  filmfruits,
+  qurandownloader,
   play
 };
